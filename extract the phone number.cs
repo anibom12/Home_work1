@@ -28,7 +28,7 @@ phoneNumbers.Add(n5);
 
 Console.WriteLine($"Hello {a}.  your information that you entered is :\n Home phone number: {n1}\n Your mobile phone number: {n2}\n Father's mobile phone number: {n3}\n Mother's mobile phone number: {n4}\n Emergency mobile phone number: {n5}");
 
-Console.WriteLine(" A valid number is one that has ten digits,start with zero ,and contain at least two different digits.\n Valid numbers:");
+Console.WriteLine(" A valid  phone number is one that has ten digits,start with zero ,and contain at least two different digits.\n Valid numbers:");
 foreach (string s in phoneNumbers)
 {
     if (s.Length == 10 && s[0] == '0')
